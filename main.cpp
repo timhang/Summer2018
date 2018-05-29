@@ -11,7 +11,7 @@ int main(int argc,char* argv[]){
 	if(!infile){std::cout<<"unable to open file"<<std::endl;
 		return 1;}
 	std::string line;
-	std::map
+	std::map<std::string>
 	while(getline(infile,line)){
 		//std::cout<<line<<std::endl;
 		std::stringstream ss;
